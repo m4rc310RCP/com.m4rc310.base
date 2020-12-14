@@ -102,11 +102,10 @@
    </plugins>
 
    <features>
+      <feature id="com.m4rc310.feature" installMode="root"/>
       <feature id="org.eclipse.e4.rcp" installMode="root"/>
-      <feature id="org.eclipse.emf.ecore"/>
-      <feature id="org.eclipse.emf.common"/>
-      <feature id="com.m4rc310.feature"/>
-      <feature id="org.eclipse.rcp" installMode="root"/>
+      <feature id="org.eclipse.emf.ecore" installMode="root"/>
+      <feature id="org.eclipse.emf.common" installMode="root"/>
    </features>
 
    <configurations>
@@ -116,13 +115,5 @@
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
    </configurations>
-
-   <preferencesInfo>
-      <targetfile overwrite="false"/>
-   </preferencesInfo>
-
-   <cssInfo>
-      <file path="/com.m4rc310.rcp/css/default.css"/>
-   </cssInfo>
 
 </product>

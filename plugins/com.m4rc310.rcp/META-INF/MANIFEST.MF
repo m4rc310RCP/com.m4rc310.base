@@ -17,4 +17,3 @@ Require-Bundle: javax.inject;bundle-version="0.0.0",
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: javax.annotation;version="0.0.0"
 Automatic-Module-Name: com.m4rc310.rcp
-Bundle-ActivationPolicy: lazy
